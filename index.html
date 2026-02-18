@@ -3,85 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aldo Arellano Juárez | Ingeniería Informática</title>
+    <title>Aldo Arellano Juárez | Portafolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header class="hero">
-    <h1>Aldo Arellano Juárez</h1>
-    <h2><span id="typing"></span></h2>
-</header>
+    <!-- HEADER -->
+    <header>
+        <h1>Aldo Arellano Juárez</h1>
+        <p>Desarrollador Web | Analista de Sistemas | Programador</p>
+    </header>
 
-<nav>
-    <a href="#sobre">Sobre mí</a>
-    <a href="#habilidades">Habilidades</a>
-    <a href="#proyectos">Proyectos</a>
-    <a href="#conocimientos">Conocimientos Técnicos</a>
-    <a href="#contacto">Contacto</a>
-</nav>
+    <!-- MENÚ -->
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
 
-<section id="sobre">
-    <h2>Perfil Profesional</h2>
-    <p>
-        Estudiante de Ingeniería Informática (19 años), enfocado en desarrollo 
-        de software, bases de datos relacionales y análisis estructurado 
-        de sistemas de información.
-    </p>
-</section>
+    <!-- SOBRE MÍ -->
+    <section id="sobre">
+        <h2>Perfil Profesional</h2>
+        <p>
+            Estudiante de Ingeniería Informática (19 años), enfocado en desarrollo 
+            de software, bases de datos relacionales y análisis estructurado 
+            de sistemas de información.
+        </p>
+    </section>
 
-<section id="habilidades">
-    <h2>Habilidades Técnicas</h2>
+    <!-- HABILIDADES -->
+    <section id="habilidades">
+        <h2>Habilidades Técnicas</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>Programación en Java</li>
+        </ul>
+    </section>
 
-    <div class="skill">
-        <p>HTML</p>
-        <div class="bar"><div class="progress html"></div></div>
-    </div>
+    <!-- PROYECTOS -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>Próximamente estaré agregando mis proyectos aquí.</p>
+    </section>
 
-    <div class="skill">
-        <p>CSS</p>
-        <div class="bar"><div class="progress css"></div></div>
-    </div>
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes encontrarme en:</p>
 
-    <div class="skill">
-        <p>JavaScript</p>
-        <div class="bar"><div class="progress js"></div></div>
-    </div>
+        <ul class="redes">
+            <li>
+                <strong>Facebook:</strong> 
+                <a href="https://facebook.com/" target="_blank">Aldo Jrz</a>
+            </li>
+            <li>
+                <strong>Instagram:</strong> 
+                <a href="https://instagram.com/one_aldoo" target="_blank">@one_aldoo</a>
+            </li>
+        </ul>
+    </section>
 
-</section>
+    <footer>
+        <p>© 2026 Aldo Arellano Juárez - Todos los derechos reservados</p>
+    </footer>
 
-<section id="proyectos">
-    <h2>Proyectos Destacados</h2>
-
-    <div class="card">
-        <h3>Sistema de Ventas</h3>
-        <p>Aplicación con base de datos relacional utilizando consultas SQL e INNER JOIN.</p>
-    </div>
-
-    <div class="card">
-        <h3>Formulario Validado</h3>
-        <p>Validación dinámica con JavaScript y control de errores.</p>
-    </div>
-
-</section>
-
-<section id="conocimientos">
-    <h2>Conceptos Técnicos</h2>
-    <p><strong>Programación:</strong> Desarrollo de algoritmos, estructuras de datos, paradigma orientado a objetos.</p>
-    <p><strong>Bases de Datos:</strong> Modelo Entidad-Relación, normalización, consultas SQL.</p>
-    <p><strong>Análisis de Sistemas:</strong> UML, casos de uso, requerimientos funcionales y no funcionales.</p>
-</section>
-
-<section id="contacto">
-    <h2>Contacto</h2>
-    <button onclick="mensaje()">Contactar</button>
-    <p id="mensaje"></p>
-</section>
-
-<footer>
-    <p>© 2026 Aldo Arellano Juárez - Ingeniería Informática</p>
-</footer>
-
-<script src="script.js"></script>
 </body>
 </html>
+
