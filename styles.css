@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px;
+    background: linear-gradient(135deg, #00f2ff, #00ff88);
+    color: #0f172a;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+    background: #1e293b;
+}
+
+nav a {
+    color: #00f2ff;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00ff88;
+}
+
+section {
+    padding: 50px;
+}
+
+h2 {
+    color: #00ff88;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #00f2ff;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.bar {
+    background: #334155;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.progress {
+    height: 20px;
+    border-radius: 10px;
+}
+
+.html { width: 90%; background: #00f2ff; }
+.css { width: 85%; background: #00ff88; }
+.js { width: 80%; background: #38bdf8; }
+
+button {
+    padding: 10px 20px;
+    background: #00f2ff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #00ff88;
+}
