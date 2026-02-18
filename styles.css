@@ -3,30 +3,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
 }
 
-/* HEADER AZUL ESTILO WINDOWS */
-header {
-    background: linear-gradient(135deg, #0078D4, #005A9E);
+/* FONDO GENERAL IA */
+body {
+    background: #0f172a;
     color: white;
-    text-align: center;
-    padding: 80px 20px;
 }
 
-header h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
+/* HEADER FUTURISTA */
+header {
+    background: linear-gradient(135deg, #1e3a8a, #6d28d9);
+    text-align: center;
+    padding: 100px 20px;
+    animation: fadeIn 2s ease-in-out;
 }
 
 header p {
-    font-size: 20px;
-    color: #E6F1FF;
+    margin-top: 15px;
+    color: #cbd5e1;
+}
+
+/* EFECTO GLOW EN NOMBRE */
+.glow {
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 
+        0 0 5px #3b82f6,
+        0 0 10px #3b82f6,
+        0 0 20px #8b5cf6,
+        0 0 40px #8b5cf6;
 }
 
 /* MENÚ */
 nav {
-    background-color: #0a1f44;
+    background: #111827;
     padding: 15px 0;
 }
 
@@ -37,70 +50,81 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 25px;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
+    color: #cbd5e1;
     font-weight: bold;
     transition: 0.3s;
 }
 
 nav ul li a:hover {
-    color: #00BFFF;
+    color: #3b82f6;
+    text-shadow: 0 0 10px #3b82f6;
 }
 
 /* SECCIONES */
 section {
-    padding: 60px 20px;
+    padding: 80px 20px;
     text-align: center;
+    animation: fadeUp 1.5s ease;
 }
 
 section h2 {
     margin-bottom: 20px;
-    color: #0078D4;
+    color: #3b82f6;
 }
 
 section p, section li {
+    color: #e2e8f0;
     font-size: 18px;
-    color: #333;
 }
 
-/* LISTAS */
 ul {
     list-style: none;
-    padding: 0;
-}
-
-ul li {
-    margin: 10px 0;
 }
 
 /* CONTACTO */
 #contacto {
-    background-color: #f2f6fc;
-}
-
-.redes li {
-    font-size: 18px;
+    background: #1e293b;
 }
 
 .redes a {
-    color: #0078D4;
+    color: #8b5cf6;
     text-decoration: none;
-    font-weight: bold;
+    transition: 0.3s;
 }
 
 .redes a:hover {
-    text-decoration: underline;
+    color: #3b82f6;
+    text-shadow: 0 0 10px #3b82f6;
 }
 
 /* FOOTER */
 footer {
-    background-color: #0a1f44;
-    color: white;
+    background: #111827;
     text-align: center;
     padding: 20px;
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+/* ANIMACIONES */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
